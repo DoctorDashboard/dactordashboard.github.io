@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="21px" viewBox="0 0 45 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-plastic-surgeon" transform="translate(-153.000000, -29.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-43">
+                <g id="Group-41">
+                    <path id="Line" d="M160.72626,41 L171.735392,47.1926367 C172.457429,47.5987824 172.713509,48.513355 172.307363,49.2353919 C171.901218,49.9574287 170.986645,50.213509 170.264608,49.8073633 L154.264608,40.8073633 C153.245131,40.2339072 153.245131,38.7660928 154.264608,38.1926367 L170.264608,29.1926367 C170.986645,28.786491 171.901218,29.0425713 172.307363,29.7646081 C172.713509,30.486645 172.457429,31.4012176 171.735392,31.8073633 L160.72626,38 L171,38 L196,38 C196.828427,38 197.5,38.6715729 197.5,39.5 C197.5,40.3284271 196.828427,41 196,41 L171,41 L160.72626,41 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

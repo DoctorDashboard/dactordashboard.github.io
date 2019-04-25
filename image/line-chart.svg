@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1046px" height="374px" viewBox="0 0 1046 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 40</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.2123891%" y1="86.4531752%" x2="46.2123891%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#3B86FD" stop-opacity="0.05" offset="0%"></stop>
+            <stop stop-color="#6DBBFF" stop-opacity="0.4" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="15" cy="15" r="15"></circle>
+        <filter x="-53.3%" y="-46.7%" width="206.7%" height="206.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-plastic-surgeon" transform="translate(-315.000000, -2205.000000)">
+            <g id="Group-40" transform="translate(315.000000, 2202.000000)">
+                <g id="Group-39">
+                    <g id="Group-37">
+                        <g id="Group-36" transform="translate(73.000000, 322.000000)">
+                            <text id="Jan" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="0" y="51">Jan</tspan>
+                            </text>
+                            <text id="Feb" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="85" y="51">Feb</tspan>
+                            </text>
+                            <text id="Mar" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="169" y="51">Mar</tspan>
+                            </text>
+                            <text id="Apr" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="255" y="51">Apr</tspan>
+                            </text>
+                            <text id="May" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="336" y="51">May</tspan>
+                            </text>
+                            <text id="Jun" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="423" y="51">Jun</tspan>
+                            </text>
+                            <text id="Jul" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="510" y="51">Jul</tspan>
+                            </text>
+                            <text id="Aug" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="590" y="51">Aug</tspan>
+                            </text>
+                            <text id="Sept" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="673" y="51">Sept</tspan>
+                            </text>
+                            <text id="Oct" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="761" y="51">Oct</tspan>
+                            </text>
+                            <text id="Nov" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="843" y="51">Nov</tspan>
+                            </text>
+                            <text id="Dec" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                                <tspan x="929" y="51">Dec</tspan>
+                            </text>
+                            <path d="M14.5,1.59872116e-14 L14.5,26" id="Line-7" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M183.5,5.86197757e-14 L183.5,26" id="Line-7-Copy" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M98.5,5.86197757e-14 L98.5,26" id="Line-7-Copy-2" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M267.5,5.86197757e-14 L267.5,26" id="Line-7-Copy-3" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M351.5,5.86197757e-14 L351.5,26" id="Line-7-Copy-4" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M436.5,5.86197757e-14 L436.5,26" id="Line-7-Copy-5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M520.5,5.86197757e-14 L520.5,26" id="Line-7-Copy-6" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M604.5,5.86197757e-14 L604.5,26" id="Line-7-Copy-7" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M689.5,5.86197757e-14 L689.5,26" id="Line-7-Copy-8" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M773.5,5.86197757e-14 L773.5,26" id="Line-7-Copy-9" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M857.5,5.86197757e-14 L857.5,26" id="Line-7-Copy-10" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M942.5,5.86197757e-14 L942.5,26" id="Line-7-Copy-11" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                        </g>
+                        <g id="Group-35" transform="translate(0.000000, 39.000000)" fill="#000000" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                            <text id="10k">
+                                <tspan x="0" y="254">10k</tspan>
+                            </text>
+                            <text id="20k">
+                                <tspan x="0" y="195">20k</tspan>
+                            </text>
+                            <text id="30k">
+                                <tspan x="0" y="135">30k</tspan>
+                            </text>
+                            <text id="40k">
+                                <tspan x="0" y="75">40k</tspan>
+                            </text>
+                            <text id="50k">
+                                <tspan x="0" y="15">50k</tspan>
+                            </text>
+                        </g>
+                        <path d="M1045,287.5 L57,287.5" id="Line-6" stroke="#C6C6C6" stroke-width="2" opacity="0.497930618" stroke-linecap="round" stroke-dasharray="8,8"></path>
+                        <path d="M1045,227.5 L57,227.5" id="Line-6-Copy" stroke="#C6C6C6" stroke-width="2" opacity="0.496349516" stroke-linecap="round" stroke-dasharray="8,8"></path>
+                        <path d="M1045,167.5 L57,167.5" id="Line-6-Copy-2" stroke="#C6C6C6" stroke-width="2" opacity="0.502906436" stroke-linecap="round" stroke-dasharray="8,8"></path>
+                        <path d="M1045,107.5 L57,107.5" id="Line-6-Copy-3" stroke="#C6C6C6" stroke-width="2" opacity="0.500488281" stroke-linecap="round" stroke-dasharray="8,8"></path>
+                        <path d="M1045,47.5 L57,47.5" id="Line-6-Copy-4" stroke="#C6C6C6" stroke-width="2" opacity="0.499302455" stroke-linecap="round" stroke-dasharray="8,8"></path>
+                        <text id="Income" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
+                            <tspan x="0" y="15">Income</tspan>
+                        </text>
+                    </g>
+                    <path d="M60.5,255.5 C98.1666667,202.5 132,173.166667 162,167.5 C192,161.833333 223.5,142.166667 256.5,108.5 C310.166667,71.5 383,78.5 475,129.5 C567,180.5 638,161.333333 688,72 L688,287.5 L60.5,287.5 L60.5,255.5 Z" id="Path-2" fill="url(#linearGradient-1)"></path>
+                </g>
+                <path d="" id="Path" stroke="#979797"></path>
+                <path d="M60.5,255.5 C98.1666667,202.5 132,173.166667 162,167.5 C192,161.833333 223.5,142.166667 256.5,108.5 C310.166667,71.5 383,78.5 475,129.5 C567,180.5 638,161.333333 688,72" id="Path-2" stroke="#3B86FD" stroke-width="5" stroke-linecap="round"></path>
+                <g id="Group-38" transform="translate(673.000000, 57.000000)">
+                    <path d="M15,15 L15,291" id="Line-8" stroke="#3B86FD" stroke-width="2" stroke-linecap="round"></path>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <circle stroke="#3B86FD" stroke-width="7" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="15" cy="15" r="11.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

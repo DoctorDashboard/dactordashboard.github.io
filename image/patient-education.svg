@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>book</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-22.5%" y="-22.5%" width="145.1%" height="145.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-dermatologist" transform="translate(-931.000000, -887.000000)" fill-rule="nonzero">
+            <g id="Group-37" transform="translate(285.000000, 800.000000)">
+                <g id="Group-36" transform="translate(628.000000, 95.000000)">
+                    <g id="book" filter="url(#filter-1)" transform="translate(28.000000, 0.000000)">
+                        <circle id="Oval" fill="#B9EAFF" cx="51" cy="51" r="51"></circle>
+                        <path d="M102,51 C102,48.7364766 101.850586,46.5082148 101.564906,44.3225859 L77.3632148,20.1210938 L22.2694688,76.3826602 L47.7830156,101.896207 C48.8472422,101.962348 49.9190391,102 51,102 C79.166543,102 102,79.166543 102,51 Z" id="Path" fill="#35CCFF"></path>
+                        <rect id="Rectangle" fill="#662E57" x="29.7832031" y="20.1210938" width="39.7819922" height="55.2533203"></rect>
+                        <rect id="Rectangle" fill="#590F38" x="49.3305469" y="20.1210938" width="20.2346484" height="55.2533203"></rect>
+                        <rect id="Rectangle" fill="#440C2D" x="66.9653906" y="20.1210938" width="10.3972266" height="55.2533203"></rect>
+                        <rect id="Rectangle" fill="#FFECB3" x="35.1561328" y="27.9723047" width="25.5019922" height="2.21332031"></rect>
+                        <rect id="Rectangle" fill="#FFD863" x="49.3305469" y="27.9723047" width="11.3269805" height="2.21332031"></rect>
+                        <rect id="Rectangle" fill="#FFECB3" x="35.1561328" y="33.3153516" width="25.5019922" height="2.21332031"></rect>
+                        <rect id="Rectangle" fill="#FFD863" x="49.3305469" y="33.3153516" width="11.3269805" height="2.21332031"></rect>
+                        <path d="M14.6425781,61.590668 C14.6425781,55.6017539 19.4975391,50.746793 25.4864531,50.746793 C30.5645391,50.746793 34.8258281,54.2377031 36.0050039,58.9502227 C37.1841797,54.2377031 41.4454688,50.746793 46.5235547,50.746793 C52.5124688,50.746793 57.3674297,55.6017539 57.3674297,61.590668 C57.3674297,77.5311563 36.0050039,85.6640625 36.0050039,85.6640625 C36.0050039,85.6640625 14.6425781,75.9810352 14.6425781,61.590668 Z" id="Path" fill="#F1333F"></path>
+                        <path d="M36.0050039,85.6640625 C36.0050039,85.6640625 57.3674297,77.5311563 57.3674297,61.590668 C57.3674297,55.6017539 52.5124688,50.746793 46.5235547,50.746793 C41.445668,50.746793 37.1841797,54.2377031 36.0050039,58.9502227 L36.0050039,85.6640625 L36.0050039,85.6640625 Z" id="Path" fill="#AE283F"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

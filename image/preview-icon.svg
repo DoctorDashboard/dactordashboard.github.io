@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="32px" viewBox="0 0 37 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>eye - FontAwesome</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-18.1%" y="-57.5%" width="136.2%" height="215.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="FontAwesome" font-size="19" font-weight="normal">
+        <g id="customization-dashboard" transform="translate(-879.000000, -294.000000)" fill="#FFFFFF">
+            <g id="Group-38" transform="translate(868.000000, 287.000000)">
+                <g id="Group-16" filter="url(#filter-1)">
+                    <g id="Group-3" transform="translate(20.000000, 10.000000)">
+                        <text id="eye---FontAwesome">
+                            <tspan x="0" y="17"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

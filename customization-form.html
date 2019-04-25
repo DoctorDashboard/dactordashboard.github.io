@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Yujia Wang</title>
+        <!-- css files -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-rTQdcTFdT69CgbBErourkScWQ6j5WQ4aAoCF0UyPhog3PNysM/xz/kqshWKP4NLA" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script type="text/javascript">
+            !function(e,t){function n(){var n=l.getBoundingClientRect().width;t=t||540,n>t&&(n=t);var i=100*n/e;r.innerHTML="html{font-size:"+i+"px;}"}var i,d=document,o=window,l=d.documentElement,r=document.createElement("style");if(l.firstElementChild)l.firstElementChild.appendChild(r);else{var a=d.createElement("div");a.appendChild(r),d.write(a.innerHTML),a=null}n(),o.addEventListener("resize",function(){clearTimeout(i),i=setTimeout(n,300)},!1),o.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(i),i=setTimeout(n,300))},!1),"complete"===d.readyState?d.body.style.fontSize="16px":d.addEventListener("DOMContentLoaded",function(e){d.body.style.fontSize="16px"},!1)}(1440,1440);
+        </script>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav class="sidenav">
+            <div class="container-fluid">
+                <div class="row menu-icon">
+                    <div class="col-md-12 nav-space" style="display: flex; align-items: center;">
+                        <img class="menu" src="image/menu-icon.svg" style="width: 0.24rem">
+                        <img class="menu-back" src="image/menu-back-icon.svg" style="width: 0.4rem;">
+                    </div>
+                </div>
+                <div class="row menu">
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-dashboard" href="index.html">
+                            <img class="nav-icon" src="image/dashboard-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-appointment" href="plastic-surgeon.html">
+                            <img src="image/appointment-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Appointment</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-patient" href="dermatologist.html">
+                            <img src="image/patient-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Patient</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-message" href="index.html">
+                            <img src="image/message-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Message</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-task" href="index.html">
+                            <img src="image/task-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Task</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-billing" href="index.html">
+                            <img src="image/billing-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Billing</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="c-nav-container c-nav-icon-customization" href="customization-dashboard.html">
+                            <img src="image/customization-icon-active.svg" style="width: 0.25rem;">
+                            <span class="c-nav-title">Customization</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="sub-nav">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" style="padding: 0; margin-left: 0.25rem; height: 0.8rem; display: flex; flex-direction: column; justify-content: center;">
+                        <span style="font-size: 0.2rem; font-weight: 700;">Customization</span>
+                    </div>
+                    <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center;">
+                        <div class="sub-nav-line"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column;">
+                        <a class="sub-nav-title" style="margin-top: 0.15rem;" href="customization-dashboard.html">Dashboard</a>
+                        <a class="sub-nav-title sub-nav-active" href="customization-form.html">Form</a>
+                        <a class="sub-nav-title" href="customization-dashboard.html">EHR</a>
+                        <a class="sub-nav-title" href="customization-dashboard.html">Status</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-bar">
+            <div class="top-bar-content">
+                <div class="search-icon">
+                    <img src="image/search-icon.svg" style="width: 0.24rem;">
+                </div>
+                <div class="notification-icon">
+                    <img src="image/notification-icon.svg" style="width: 0.24rem;">
+                </div>
+                <div class="setting-icon">
+                    <img src="image/setting-icon.svg" style="width: 0.24rem;">
+                </div>
+                <div class="welcome">
+                    <span style="font-size: 0.24rem;">Hi, Bobo!</span>
+                </div>
+                <div class="profile"></div>
+            </div>
+        </div>
+        <div class="c-content">
+            <div class="template">
+                <div class="section-title">
+                    <div class="section-title-1">
+                        <h1>Template</h1>
+                    </div>
+                </div>
+                <button class="template-btn">Check-in Form for Plastic Surgeon</button>
+            </div>
+            <div class="multiple-section">
+                <div class="form-content">
+                    <div class="section-title">
+                        <div class="section-title-1">
+                            <h1>Form Content</h1>
+                        </div>
+                        <button class="preview-btn">Preview</button>
+                    </div>
+                    <div class="form-content-card">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.1rem;">
+                                    <div class="long">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Check-in Form</span>
+                                            <img src="image/header-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                            <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.1rem;">
+                                    <div class="group-section">
+                                        <div class="group-title" style="padding-bottom: 0.15rem">
+                                            <div class="drag-title">
+                                                <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                <span style="font-size: 0.2rem; margin-left: 0.25rem;">Basic Info</span>
+                                                <img src="image/group-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                            </div>
+                                            <div class="operation">
+                                                <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                            </div>
+                                        </div>
+                                        <div class="group-item">
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Last Name</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Gender</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-item">
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">First Name</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Age</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.1rem;">
+                                    <div class="group-section">
+                                        <div class="group-title" style="padding-bottom: 0.15rem">
+                                            <div class="drag-title">
+                                                <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                <span style="font-size: 0.2rem; margin-left: 0.25rem;">Body Info</span>
+                                                <img src="image/group-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                            </div>
+                                            <div class="operation">
+                                                <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                            </div>
+                                        </div>
+                                        <div class="group-item">
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Height</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Blood Type</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img id="edit-form" src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="group-item">
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Weight</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                            <div class="form-short">
+                                                <div class="drag-title">
+                                                    <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                                    <span style="font-size: 0.2rem; margin-left: 0.25rem;">Eye Sight</span>
+                                                    <img src="image/text-icon.svg" style="width: 0.18rem; margin-left: 0.15rem;">
+                                                </div>
+                                                <div class="operation">
+                                                    <img src="image/edit-icon.svg" style="width: 0.20rem;">
+                                                    <img src="image/delete-icon.svg" style="width: 0.2rem; margin-left: 0.2rem;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-element">
+                    <div class="section-title">
+                        <div class="section-title-1">
+                            <h1>Element</h1>
+                        </div>
+                    </div>
+                    <div class="form-element-card">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.1rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Text</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/text-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Image</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/image-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Checkbox</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/checkbox-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Radio Button</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/radio-button-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Input Field</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/input-field-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Dropdown Menu</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/dropdown-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Group</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/group-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; align-items: center; padding-top: 0.15rem;">
+                                    <div class="element-section">
+                                        <div class="drag-title">
+                                            <img src="image/drag-icon.svg" style="width: 0.15rem;">
+                                            <span style="font-size: 0.2rem; margin-left: 0.25rem;">Header</span>
+                                        </div>
+                                        <div class="operation">
+                                            <img src="image/header-icon.svg" style="width: 0.20rem;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 0.5rem;">
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+        <div class="pop-window">
+            <div class="edit-box">
+                <h2>Dropdown Menu</h2>
+                <div class="edit-content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12" style="padding: 0; margin-left: 0.3rem;">
+                                <span style="font-size: 0.2rem; font-weight: 500;">Label Name</span>
+                            </div>
+                            <div class="col-md-12" style="padding: 0; display: flex; align-items: center; margin-top: 0.2rem; margin-left: 0.3rem;">
+                                <div class="edit-input">
+                                    <span style="font-size: 0.16rem;">General</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 0.3rem;">
+                            <div class="col-md-12" style="padding: 0; margin-left: 0.3rem;">
+                                <span style="font-size: 0.2rem; font-weight: 500;">Required Field</span>
+                            </div>
+                            <div class="col-md-12" style="padding: 0; display: flex; align-items: center; margin-top: 0.2rem; margin-left: 0.3rem;">
+                                <div class="edit-radio">
+                                    <div class="radio-dot"></div>
+                                    <span style="font-size: 0.18rem; margin-left: 0.1rem;">Yes</span>
+                                </div>
+                                <div class="edit-radio" style="margin-left: 0.2rem;">
+                                    <div class="radio-dot-active"></div>
+                                    <span style="font-size: 0.18rem; margin-left: 0.1rem;">No</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 0.3rem;">
+                            <div class="col-md-12" style="padding: 0; margin-left: 0.3rem;">
+                                <span style="font-size: 0.2rem; font-weight: 500;">Values</span>
+                            </div>
+                            <div class="col-md-12" style="padding: 0; display: flex; flex-direction: column; margin-top: 0.2rem; margin-left: 0.3rem;">
+                                <div class="edit-add-item">
+                                    <span style="font-size: 0.16rem;">Fatigue</span>
+                                </div>
+                                <div class="edit-add-item">
+                                    <span style="font-size: 0.16rem;">Fever or chills</span>
+                                </div>
+                                <div class="edit-add-item">
+                                    <span style="font-size: 0.16rem;">Trouble sleeping</span>
+                                </div>
+                                <div class="edit-add-item">
+                                    <span style="font-size: 0.16rem;">Decreased appetite</span>
+                                </div>
+                                <div class="edit-add-item">
+                                    <span style="font-size: 0.16rem;">Itching or rashes</span>
+                                </div>
+                                <button class="add-value-btn">+ New Value</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit-operation">
+                    <button class="cancel-btn">Cancel</button>
+                    <button class="delete-btn">Delete</button>
+                    <button class="save-btn">Save</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>

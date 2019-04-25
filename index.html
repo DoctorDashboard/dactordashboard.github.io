@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Yujia Wang</title>
+        <!-- css files -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-rTQdcTFdT69CgbBErourkScWQ6j5WQ4aAoCF0UyPhog3PNysM/xz/kqshWKP4NLA" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script type="text/javascript">
+            !function(e,t){function n(){var n=l.getBoundingClientRect().width;t=t||540,n>t&&(n=t);var i=100*n/e;r.innerHTML="html{font-size:"+i+"px;}"}var i,d=document,o=window,l=d.documentElement,r=document.createElement("style");if(l.firstElementChild)l.firstElementChild.appendChild(r);else{var a=d.createElement("div");a.appendChild(r),d.write(a.innerHTML),a=null}n(),o.addEventListener("resize",function(){clearTimeout(i),i=setTimeout(n,300)},!1),o.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(i),i=setTimeout(n,300))},!1),"complete"===d.readyState?d.body.style.fontSize="16px":d.addEventListener("DOMContentLoaded",function(e){d.body.style.fontSize="16px"},!1)}(1440,1440);
+        </script>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav class="sidenav">
+            <div class="container-fluid">
+                <div class="row menu-icon">
+                    <div class="col-md-12 nav-space" style="display: flex; align-items: center;">
+                        <img class="menu" src="image/menu-icon.svg" style="width: 0.24rem">
+                        <img class="menu-back" src="image/menu-back-icon.svg" style="width: 0.4rem;">
+                    </div>
+                </div>
+                <div class="row menu">
+                    <div class="col-md-12 nav-space">
+                        <a class="c-nav-container c-nav-icon-dashboard" href="index.html">
+                            <img class="nav-icon" src="image/dashboard-icon-active.svg" style="width: 0.25rem;">
+                            <span class="c-nav-title">Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-appointment" href="plastic-surgeon.html">
+                            <img src="image/appointment-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Appointment</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-patient" href="dermatologist.html">
+                            <img src="image/patient-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Patient</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-message" href="index.html">
+                            <img src="image/message-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Message</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-task" href="index.html">
+                            <img src="image/task-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Task</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-billing" href="index.html">
+                            <img src="image/billing-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Billing</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12 nav-space">
+                        <a class="nav-container nav-icon-customization" href="customization-dashboard.html">
+                            <img src="image/customization-icon.svg" style="width: 0.25rem;">
+                            <span class="nav-title">Customization</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="top-bar">
+            <div class="top-bar-content">
+                <div class="search-icon">
+                    <img src="image/search-icon.svg" style="width: 0.24rem;">
+                </div>
+                <div class="notification-icon">
+                    <img src="image/notification-icon.svg" style="width: 0.24rem;">
+                </div>
+                <div class="setting-icon">
+                    <img src="image/setting-icon.svg" style="width: 0.24rem;">
+                </div>
+                <div class="welcome">
+                    <span style="font-size: 0.24rem;">Hi, Bobo!</span>
+                </div>
+                <div class="profile"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="appointment">
+                <div class="section-title">
+                    <div class="section-title-1">
+                        <h1>Appointment</h1>
+                        <div class="a-legend-1">
+                            <div class="a-legend-1-item"></div>
+                            <span style="font-size: 0.16rem;">Checked in</span>
+                        </div>
+                        <div class="a-legend-2">
+                            <div class="a-legend-2-item"></div>
+                            <span style="font-size: 0.16rem;">In process</span>
+                        </div>
+                        <div class="a-legend-3">
+                            <div class="a-legend-3-item"></div>
+                            <span style="font-size: 0.16rem;">Completed</span>
+                        </div>
+                    </div>
+                    <div class="hide-icon">
+                        <img src="image/hide-icon.svg" style="width: 0.3rem;">
+                    </div>
+                </div>
+                <div class="appointment-card">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12" style="display: flex; justify-content: center; align-items: center; padding-top: 0.15rem; padding-bottom: 0.15rem; border-bottom: solid 2px rgba(198, 198, 198, 0.5);">
+                                <button class="auxiliary"></button>
+                                <div class="calendar-container">
+                                    <img src="image/left-icon.svg" style="width: 0.2rem;">
+                                    <div class="calendar">
+                                        <img src="image/calendar-icon.svg" style="width: 0.23rem;">
+                                        <span style="font-size: 0.18rem; margin-left: 0.15rem;">April 18, 2019</span>
+                                    </div>
+                                    <img src="image/right-icon.svg" style="width: 0.2rem;">
+                                </div>
+                                <button class="add-appointment-btn">+ New Appointment</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding: 0; padding-top: 0.15rem; padding-bottom: 0.15rem; border-bottom: solid 2px rgba(198, 198, 198, 0.5); overflow: scroll;">
+                                <div id="date-section">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding: 0; border-bottom: solid 2px rgba(198, 198, 198, 0.5);">
+                                <div id="time-section"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding: 0;">
+                                <div id="appointment-detail"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="multiple-section">
+                <div class="task">
+                    <div class="section-title">
+                        <div class="section-title-1">
+                            <h1>Task</h1>
+                            <div class="t-legend-1">
+                                <img class="t-legend-1-item" src="image/urgent-star-icon.svg" style="width: 0.2rem;">
+                                <span style="font-size: 0.16rem;">Urgent</span>
+                            </div>
+                            <div class="a-legend-2">
+                                <img class="t-legend-2-item" src="image/normal-star-icon.svg" style="width: 0.2rem;">
+                                <span style="font-size: 0.16rem;">Normal</span>
+                            </div>
+                        </div>
+                        <div class="hide-icon">
+                            <img src="image/hide-icon.svg" style="width: 0.3rem;">
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12" style="display: flex; justify-content: center; align-items: center; padding-top: 0.15rem; padding-bottom: 0.15rem; border-bottom: solid 2px rgba(198, 198, 198, 0.5);">
+                                    <div class="calendar-container">
+                                        <img src="image/left-icon.svg" style="width: 0.2rem;">
+                                        <div class="calendar">
+                                            <img src="image/calendar-icon.svg" style="width: 0.23rem;">
+                                            <span style="font-size: 0.18rem; margin-left: 0.15rem;">Today</span>
+                                        </div>
+                                        <img src="image/right-icon.svg" style="width: 0.2rem;">
+                                    </div>
+                                    <button class="add-task-btn">+ New Task</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="t-urgent">
+                                        <img class="t-urgent-item" src="image/urgent-star-icon.svg" style="width: 0.2rem;">
+                                        <span style="font-size: 0.18rem; margin-left: 0.15rem;">Place cath into Mr. Rolings</span>
+                                        <div class="checkbox"></div>
+                                    </div>
+                                    <div class="t-urgent">
+                                        <img class="t-urgent-item" src="image/urgent-star-icon.svg" style="width: 0.2rem;">
+                                        <span style="font-size: 0.18rem; margin-left: 0.15rem;">QA TEC 1 by 8:30 AM</span>
+                                        <div class="checkbox"></div>
+                                    </div>
+                                    <div class="t-urgent">
+                                        <img class="t-urgent-item" src="image/urgent-star-icon.svg" style="width: 0.2rem;">
+                                        <span style="font-size: 0.18rem; margin-left: 0.15rem;">QA TEC 2 by 9:30 AM</span>
+                                        <div class="checkbox"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="t-normal">
+                                        <img class="t-urgent-item" src="image/normal-star-icon.svg" style="width: 0.2rem;">
+                                        <span style="font-size: 0.18rem; margin-left: 0.15rem;">Finish the report</span>
+                                        <div class="checkbox"></div>
+                                    </div>
+                                    <div class="t-normal">
+                                        <img class="t-urgent-item" src="image/normal-star-icon.svg" style="width: 0.2rem;">
+                                        <span style="font-size: 0.18rem; margin-left: 0.15rem;">Send follow up message</span>
+                                        <div class="checkbox"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="section-title">
+                        <div class="section-title-1">
+                            <h1>Message</h1>
+                        </div>
+                        <div class="hide-icon">
+                            <img src="image/hide-icon.svg" style="width: 0.3rem;">
+                        </div>
+                    </div>
+                    <div class="message-card">
+                        <div class="container-fluid">
+                            <div class="row" style="margin-left: 0.01rem; margin-right: 0.01rem;">
+                                <div class="col-md-12">
+                                    <div class="message-item" style="margin-top: 0.3rem;">
+                                        <img src="image/message-icon.svg" style="width: 0.28rem;">
+                                        <span class="message-type">Unread</span>
+                                        <span class="message-number">3</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="message-item">
+                                        <img src="image/fax-icon.svg" style="width: 0.28rem;">
+                                        <span class="message-type">Fax</span>
+                                        <span class="message-number">0</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="message-item">
+                                        <img src="image/lab-icon.svg" style="width: 0.28rem;">
+                                        <span class="message-type">Lab Result</span>
+                                        <span class="message-number">1</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="message-item">
+                                        <img src="image/erx-icon.svg" style="width: 0.28rem;">
+                                        <span class="message-type">eRx</span>
+                                        <span class="message-number">1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="billing">
+                <div class="section-title">
+                    <div class="section-title-1">
+                        <h1>Billing</h1>
+                    </div>
+                    <div class="hide-icon">
+                        <img src="image/hide-icon.svg" style="width: 0.3rem;">
+                    </div>
+                </div>
+                <div class="billing-card">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12" style="margin-top: 0.3rem;">
+                                <h2>Claim</h2>
+                            </div>
+                            <div class="col-md-12" style="display: flex; justify-content: center;align-items: center; margin-top: 0.3rem;">
+                                <div class="pie-chart-container">
+                                    <div class="pie-chart-item">
+                                        <img src="image/pie-chart.svg" style="width: 1.45rem;">
+                                        <span class="pie-chart-number">15</span>
+                                    </div>
+                                    <span class="pie-chart-title">Received</span>
+                                </div>
+                                <div class="pie-chart-container" style="margin-left: 1.95rem; margin-right: 1.95rem;">
+                                    <div class="pie-chart-item">
+                                        <img src="image/pie-chart.svg" style="width: 1.45rem;">
+                                        <span class="pie-chart-number">15</span>
+                                    </div>
+                                    <span class="pie-chart-title">In Process</span>
+                                </div>
+                                <div class="pie-chart-container">
+                                    <div class="pie-chart-item">
+                                        <img src="image/pie-chart.svg" style="width: 1.45rem;">
+                                        <span class="pie-chart-number">15</span>
+                                    </div>
+                                    <span class="pie-chart-title">Requiring Action</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 0.6rem;">
+                            <div class="col-md-12" style="display: flex; align-items: center;">
+                                <h2>Business Trend</h2>
+                                <button class="business-btn">Month</button>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 0.3rem;">
+                                <img src="image/line-chart.svg" style="width: 10.45rem;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>

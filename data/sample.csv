@@ -1,0 +1,5 @@
+﻿name,room,time,reason,profile,status
+Alice Malone,Exam 3,9:30 - 11:00,Reexamination,../image/patient1.jpg,completed
+Emma Stone,Exam 2,10:00 - 11:00,Stomachache,../image/patient2.jpg,in process
+Tom Purdy,Exam 1,11:00 - 12:00,Reexamination,../image/patient3.jpg,checked in
+Sam Harvey,Exam 3,11:00 - 12:00,Reexamination,../image/patient4.jpg,checked in
